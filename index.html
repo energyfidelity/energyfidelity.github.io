@@ -1,55 +1,67 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-<title>Energy Fidelity</title>
-
-<!--CSS-->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/bootstrap-light.css">
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<!--/CSS-->
-
-<!--JS-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="js/jquery.plugin.js"></script>
-<script src="js/jquery.countdown.js"></script>
-<script>
-$(function () {
-	$('#defaultCountdown').countdown({until: new Date(2020, 6-1, 25)}); 
-	//Replace above date with your own, to find out more visit http://keith-wood.name/countdown.html
-});
-</script>
-<!--/JS-->
-
-</head>
-
-<body>
-
-<!--DARK OVERLAY-->
-<div class="overlay"></div>
-<!--/DARK OVERLAY-->
-
-<!--WRAP-->
-<div id="wrap">
-	<!--CONTAINER-->
-	<div class="container">
-		<img src="images/rocket-white-115.png" alt="Paper Plane" class="image-align" />
-		<h1>
-			<span>Welcome to</span><br/>
-			Energy <span class="yellow">Fidelity</span>
-		</h1>
-		<p>Your gateway to trust and reliability in the global <strong>energy</strong> sector</p>
-		<div id="defaultCountdown"></div>
-<!-- 		<form action="#">
-			<input type="text" name="email" id="email" value="Subscribe to fond out when we are done">
-			<input type="submit" value="GO!">
-		</form> -->
-		<p class="copyright">Powered by <a href="http://www.sunkonnect.co/" target="_blank">Sunkonnect</a>.</p>
-	</div>
-	<!--/CONTAINER-->
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Energy Fidelity</title>
+    <meta name="description" content="Demo of A Free Coming Soon Bootstrap 4 Template by TemplateFlip.com."/>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+  </head>
+  <body id="top"><div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">Coming Soon</h3>
+          <nav class="nav nav-masthead">
+            <a class="nav-link nav-social" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a class="nav-link nav-social" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </nav>
+        </div>
+      </div><br>      <div class="inner cover">
+        <h1 class="cover-heading">Energy Fidelity</h1>
+        <p class="lead cover-copy">Your gateway to trust and reliability in the global energy sector.</p>
+<!--         <p class="lead"><button type="button" class="btn btn-lg btn-default btn-notify" data-toggle="modal" data-target="#subscribeModal">Notify Me</button></p> -->
+      </div>
+      <div class="mastfoot">
+        <div class="inner">
+          <p>Powered by <a href="http://www.sunkonnect.co/" target="_blank">Sunkonnect</a>.</p>
+        </div>
+      </div>
+      <div class="modal fade" id="subscribeModal" tabindex="-1" role="dialog" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="subscribeModalLabel">Get Notified on Launch:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="recipient-name" class="form-control-label">Enter you e-mail to get notified when we launch</label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="your-name@example.com">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default">Subscribe</button>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
 </div>
-<!--/WRAP-->
-
-</body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
